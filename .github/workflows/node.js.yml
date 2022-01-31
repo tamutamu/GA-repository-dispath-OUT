@@ -27,6 +27,6 @@ jobs:
     - name: dispatch update-packages
       uses: peter-evans/repository-dispatch@v1
       with:
-        repository: github_name/repo
+        repository: tamutamu/GA-repository-dispath-IN
         token: ${{ secrets.GITHUB_TOKEN }}
         event-type: update-test1-path
