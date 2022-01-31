@@ -8,6 +8,7 @@ on:
     branches: [ main ]
     paths:
       - "test1/**"
+      - "README.md"
 
 jobs:
   build:
