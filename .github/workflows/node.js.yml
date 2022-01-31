@@ -24,3 +24,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: echo "test"
+		- name: dispatch update-packages
+			uses: peter-evans/repository-dispatch@v1
+			with:
+				repository: github_name/repo
+				token: ${{ secrets.GITHUB_TOKEN }}
+				event-type: update-test1-path
