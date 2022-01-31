@@ -28,3 +28,4 @@ jobs:
         repository: tamutamu/GA-repository-dispath-IN
         token: ${{ secrets.PERSONAL_TOKEN }}
         event-type: update-test1-path
+        client-payload: '{ "branch": "develop"}'
