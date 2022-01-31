@@ -28,5 +28,5 @@ jobs:
       uses: peter-evans/repository-dispatch@v1
       with:
         repository: tamutamu/GA-repository-dispath-IN
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.GITHUB_PERSONAL_TOKEN }}
         event-type: update-test1-path
